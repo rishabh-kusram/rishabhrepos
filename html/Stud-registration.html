@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend><h1>Student Registration Form</h1></legend>
+        <form action="">
+            <label for="FN">First Name : </label>
+            <input type="text" name="" id="FN" maxlength="20" placeholder="Enter your First Name" required>
+            <br>
+            <br>
+            <label for="MN">Middle Name : </label>
+            <input type="text" name="" id="MN" maxlength="20" placeholder="Enter your Middle Name" required>
+            <br>
+            <br>
+            <label for="LN">Last Name : </label>
+            <input type="text" name="" id="LN" maxlength="20" placeholder="Enter your Last Name" required>
+            <br>
+            <br>
+            <label for="email">Email : </label>
+            <input type="email" name="" id="email" placeholder="Enter your email" required>
+            <br>
+            <br>
+            <label for="mob">Mobile Number : </label>
+            <input type="tel" name="" id="mob" pattern="[6-9]{1}[0-9]{9}" placeholder="Enter your Mobile Number" required>
+            <br>
+            <br>
+            <label for="">Gender : </label>
+            <input type="radio" name="gen" id="" required>
+            <label for="">Male</label>
+            <input type="radio" name="gen" id="" required>
+            <label for="">Female</label>
+            <br>
+            <br>
+            <label for="date">Date of Birth(DOB) : </label>
+            <input type="date" name="" id="date" required>
+            <br>
+            <br>
+            <table>
+            <tr>
+            <td><label for="address">Address : </label></td>
+            <td><textarea name="" id="address" cols="30" rows="5" placeholder="Enter your Address" required></textarea></td>
+            </tr>
+            </table>
+            <br>
+            <label for="place">City : </label>
+            <input type="text" name="" id="place" list="city"  required>
+            <datalist id="city">
+                <option>BANGULURU</option>
+                <option>UDUPI</option>
+                <option>MYSORE</option>
+                <option>HUBBALLI-DHARWAD</option>
+            </datalist>
+            <br>
+            <br>
+            <label for="pincode">Pin Code : </label>
+            <input type="text" name="" id="pincode" list="pin" required>
+            <datalist id="pin">
+                <option>560001</option>
+                <option>576101</option>
+                <option>570001</option>
+                <option>580020</option>
+            </datalist>
+            <br>
+            <br>
+            <label for="state">State : </label>
+            <input type="text" name="" value="KARNATAKA" id="state" readonly>
+            <br>
+            <br>
+            <label for="country">Country : </label>
+            <input type="text" name="" value="INDIA" id="country" readonly>
+            <br>
+            <br>
+            <label for="">Hobbies : </label>
+            <input type="checkbox" name="" id="draw">
+            <label for="draw">Drawing</label>
+            <input type="checkbox" name="" id="sing">
+            <label for="sing">Singing</label>
+            <input type="checkbox" name="" id="dance">
+            <label for="dance">Dancing</label>
+            <input type="checkbox" name="" id="music">
+            <label for="music">Listening Music</label>
+            <input type="checkbox" name="" id="other">
+            <label for="other">Others</label>
+            <br>
+            <br>
+            <label for="">Qualification : </label>
+            <input type="checkbox" name="" id="ssc">
+            <label for="ssc">SSC(10<sup>th</sup>)</label>
+            <input type="checkbox" name="" id="hsc">
+            <label for="hsc">HSC(12<sup>th</sup>)</label>
+            <input type="checkbox" name="" id="diploma">
+            <label for="diploma">Diploma</label>
+            <input type="checkbox" name="" id="Bachelors">
+            <label for="Bachelors">Graduation(Bachelors)</label>
+            <input type="checkbox" name="" id="Masters">
+            <label for="Masters">Post Graduation(Masters)</label>
+            <input type="checkbox" name="" id="phd">
+            <label for="phd">Phd</label>
+            <br>
+            <br>
+            <label for="">Courses : </label>
+            <br>
+            <input type="checkbox" name="" id="BCA">
+            <label for="BCA">BCA(Bachelor of Computer Applications)</label>
+            <br>
+            <input type="checkbox" name="" id="Bcom">
+            <label for="Bcom">B.Com(Bachelor of Commerce)</label>
+            <br>
+            <input type="checkbox" name="" id="Bsc">
+            <label for="Bsc">B.Sc(Bachelor of Science)</label>
+            <br>
+            <input type="checkbox" name="" id="BA">
+            <label for="BA">BA(Bachelor of Arts)</label>
+            <br>
+            <input type="checkbox" name="" id="MCA">
+            <label for="MCA">MCA(Master of Computer Applications)</label>
+            <br>
+            <input type="checkbox" name="" id="Mcom">
+            <label for="Mcom">M.Com(Master of Commerce)</label>
+            <br>
+            <input type="checkbox" name="" id="Msc">
+            <label for="Msc">M.Sc(Master of Science)</label>
+            <br>
+            <input type="checkbox" name="" id="MA">
+            <label for="MA">MA(Master of Arts)</label>
+            <br>
+            <br>
+            <input type="submit" value="SUBMIT">
+            <input type="reset" value="RESET">
+        </form>
+    </fieldset>
+</body>
+</html>
