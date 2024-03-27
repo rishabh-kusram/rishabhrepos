@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GENERAL SIBLING SELECTOR</title>
+    <style>
+        div~h1{
+            color: white;
+            background-color: blue;
+        }
+        #gs2~h1{
+            color: green;
+            background-color: yellow;
+        }
+        #gs2~.head2{
+            color: hotpink;
+            background-color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- GENERAL SIBLING SELECTOR (tilde ~)-->
+    <div>
+        THIS IS DIV1 ELEMENT.
+        <h1>THIS IS CHILD ELEMENT OF DIV1 ELEMENT</h1>
+    </div>
+    <h1>THIS IS GENERAL SIBLING OF DIV1 ELEMENT</h1>
+    <div id="gs2" class="gs2">
+        THIS IS DIV2 ELEMENT.
+        <h1>THIS IS CHILD ELEMENT OF DIV2 ELEMENT</h1>
+    </div>
+    <h1 id="head2" class="head2">THIS IS GENERAL SIBLING OF DIV2 ELEMENT</h1>
+</body>
+</html>

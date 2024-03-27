@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHILD SELECTOR</title>
+    <style>
+        div>h1{
+            color: yellow;
+            background-color: black;
+        }
+        #div1>h1{
+            color: hotpink;
+            background-color: black;
+        }
+        div>#heading1{
+            color: white;
+            background-color: black;
+        }
+        #div1>#heading1{
+            color: aqua;
+            background-color: black;
+        }
+        div>p{
+            color: yellow;
+            background-color: purple;
+        }
+        div>.Child1{
+            color:aliceblue;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- CHILD SELECTOR (>) -->
+    <div id="div1">
+        <h1 id="heading1">THIS IS FIRST CHILD OF DIV1</h1>
+        <p class="Child1"> THIS IS SECOND CHILD OF DIV1</p>
+        <h2 class="Child1">THIS IS THIRD CHILD OF DIV1</h2>
+
+    </div>
+    <div id="div2">
+        <h1 id="heading2">THIS IS FIRST CHILD OF DIV2</h1>
+        <p class="Child2">THIS IS SECOND CHILD OF DIV2</p>
+        <h2 id="Child2">THIS IS THIRD CHILD OF DIV2</h2>
+
+    </div>
+</body>
+</html>
