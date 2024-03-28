@@ -1,0 +1,66 @@
+.grad{
+    height: 400px;
+    width: 400px;
+    border: 1px solid;
+    margin: 50px auto;
+}
+#grad1{
+    background-image: linear-gradient(rgb(243, 148, 164),orange);
+}
+#grad2{
+    background-image: linear-gradient(to top,rgb(255,255,0),rgb(255,165,0),rgb(255,0,0));
+}
+#grad3{
+    background-image: linear-gradient(to left,hsl(178deg,100%,50%),hsl(0deg,0%,0%));
+}
+#grad4{
+    background-image: linear-gradient(to right,#ff0000,#00ff00,#0000ff);
+}
+#grad5{
+    background-image: linear-gradient(to bottom right,rgba(135,206,235,1),rgba(238,130,238,1),rgba(75,0,130,1));
+}
+#grad6{
+    background-image: linear-gradient(to top left,hsla(45deg,100%,50%,1),hsla(145deg,100%,50%,1),hsla(245deg,100%,50%,1),hsla(345deg,100%,50%,1));
+}
+#grad7{
+    background-image: linear-gradient(to bottom left,rgb(255,0,0),rgb(0,255,0),rgb(255,255,0));
+}
+#grad8{
+    background-image: linear-gradient(to top right,hsl(0deg,100%,50%),hsl(90deg,100%,50%),hsl(180deg,100%,50%),hsl(270deg,100%,50%));
+}
+#grad9{
+    background-image: linear-gradient(180deg,greenyellow,black);
+}
+#grad10{
+    background-image: linear-gradient(90deg,#ff0000,#000000);
+}
+#grad11{
+    background-image: repeating-linear-gradient(orange,white 10%,green 20%);
+}
+#grad12{
+    background-image: repeating-linear-gradient(45deg,tan,red 10%,teal 20%);
+}
+#grad13{
+    background-image: repeating-linear-gradient(to bottom right,rgb(0,0,255),rgb(0,0,0) 10%);
+}
+#grad14{
+    background-image: repeating-linear-gradient(to left,#ffff00,teal 20%);
+}
+#grad15{
+    background-image: repeating-linear-gradient(to bottom left,#000000,hsl(90deg,100%,50%) 10%,hsl(45deg,100%,50%) 20%);
+}
+#grad16{
+    background-image: repeating-linear-gradient(135deg,rgba(255,255,0,1),rgba(255,165,0,1) 10%,hsla(0deg,100%,50%,1) 20%);
+}
+#grad17{
+    background-image: repeating-linear-gradient(45deg,orange,violet 10%,indigo 10%);
+}
+#grad18{
+    background-image: repeating-linear-gradient(to bottom right,violet,indigo,blue,green,yellow,orange,red 20%);
+}
+#grad19{
+    background-image: repeating-linear-gradient(black,gray,white 5%);
+}
+#grad20{
+    background-image: repeating-linear-gradient(red,blue 10%);
+}

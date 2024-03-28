@@ -1,0 +1,67 @@
+.grad{
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    margin: 50px auto;
+    border-radius: 50% ;
+}
+#grad1{
+    background-image: conic-gradient(hotpink 0deg 45deg,yellow 45deg 90deg,hotpink 90deg 135deg,yellow 135deg 180deg,hotpink 180deg 225deg,yellow 225deg 270deg,hotpink 270deg 315deg,yellow 315deg 360deg );
+}
+#grad2{
+    background-image: conic-gradient(yellow 0deg 90deg,blue 90deg 180deg,green 180deg 270deg,red 270deg 360deg);
+}
+#grad3{
+    background-image: conic-gradient(red 0deg 120deg,green 120deg 240deg,blue 240deg 360deg);
+}
+#grad4{
+    background-image: conic-gradient(lime 0deg 45deg,black 45deg 135deg,lime 135deg 225deg,black 225deg 315deg,lime 315deg 360deg);
+}
+#grad5{
+    background-image: conic-gradient(violet 0deg 45deg,indigo 45deg 90deg,blue 90deg 135deg,green 135deg 180deg,yellow 180deg 225deg,orange 225deg 270deg,red 270deg 315deg,pink 315deg 360deg);
+}
+#grad6{
+    background-image: conic-gradient(rgba(0,0,255,1) 0deg 45deg,rgba(0,0,255,0.9) 45deg 90deg,rgba(0,0,255,0.8) 90deg 135deg,rgba(0,0,255,0.7) 135deg 180deg,rgba(0,0,255,0.6) 180deg 225deg,rgba(0,0,255,0.5) 225deg 270deg,rgba(0,0,255,0.4) 270deg 315deg,rgba(0,0,255,0.3) 315deg 360deg);
+}
+#grad7{
+    background-image: conic-gradient(hsla(315deg,100%,50%,1) 0deg 45deg,hsla(315deg,100%,50%,0.8) 45deg 90deg,hsla(315deg,100%,50%,0.6) 90deg 135deg,hsla(315deg,100%,50%,0.4) 135deg 180deg,hsla(315deg,100%,50%,1) 180deg 225deg,hsla(315deg,100%,50%,0.8) 225deg 270deg,hsla(315deg,100%,50%,0.6) 270deg 315deg,hsla(315deg,100%,50%,0.4) 315deg 360deg);
+}
+#grad8{
+    background-image: conic-gradient(skyblue 0deg 90deg,blue 90deg 180deg,pink 180deg 270deg,aqua 270deg 360deg);
+}
+#grad9{
+    background-image: conic-gradient(skyblue 0deg 22.5deg,black 22.5deg 45deg,skyblue 45deg 67.5deg,black 67.5deg 90deg,skyblue 90deg 112.5deg,black 112.5deg 135deg ,skyblue 135deg 157.5deg,black 157.5deg 180deg,skyblue 180deg 202.5deg,black 202.5deg 225deg,skyblue 225deg 247.5deg,black 247.5deg 270deg,skyblue 270deg 292.5deg,black 292.5deg 315deg,skyblue 315deg 337.5deg,black 337.5deg 360deg );
+}
+#grad10{
+    background-image: conic-gradient(white 0deg 180deg,black 180deg 360deg);
+}
+#grad11{
+    background-image: repeating-conic-gradient(yellow 0deg 10deg,green 10deg 20deg);
+}
+#grad12{
+    background-image: repeating-conic-gradient(tan 0deg 10deg,red 10deg 20deg,teal 20deg 30deg);
+}
+#grad13{
+    background-image: repeating-conic-gradient(indigo 0deg 5deg,violet 5deg 10deg,pink 10deg 15deg,white 15deg 20deg);
+}
+#grad14{
+    background-image: repeating-conic-gradient(greenyellow 0deg 1deg ,skyblue 1deg 2deg,pink 2deg 3deg);
+}
+#grad15{
+    background-image: repeating-conic-gradient(skyblue 0deg 5deg,hotpink 5deg 10deg,black 10deg 15deg);
+}
+#grad16{
+    background-image: repeating-conic-gradient(blue 0deg 2deg,red 2deg 4deg,orange 4deg 6deg,yellow 6deg 8deg,green 8deg 10deg);
+}
+#grad17{
+    background-image: repeating-conic-gradient(blue 0deg 10deg , skyblue 10deg 20deg);
+}
+#grad18{
+    background-image: repeating-conic-gradient(black 0deg 1deg,white 1deg 2deg);
+}
+#grad19{
+    background-image: repeating-conic-gradient(grey 0deg 10deg,pink 10deg 20deg,orange 20deg 30deg,yellow 30deg 40deg);
+}
+#grad20{
+    background-image: repeating-conic-gradient(white 0deg 5deg,yellow 5deg 10deg);
+}

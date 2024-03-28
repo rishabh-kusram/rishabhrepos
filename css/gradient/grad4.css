@@ -1,0 +1,66 @@
+.grad{
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    margin: 50px auto;
+}
+#grad1{
+    background-image: radial-gradient(circle,red,orange,blue,black);
+}
+#grad2{
+    background-image: radial-gradient(circle,rgb(255,0,0),rgb(0,0,0));
+}
+#grad3{
+    background-image: radial-gradient(circle,hsl(0deg,100%,100%),hsl(0deg,2%,50%),hsl(0deg,0%,0%));
+}
+#grad4{
+    background-image: radial-gradient(circle,tan,rgba(255,0,0,0.7),teal,black);
+}
+#grad5{
+    background-image: radial-gradient(yellowgreen,yellow,black);
+}
+#grad6{
+    background-image: radial-gradient(circle,#0000ff,#ee82ee,#000);
+}
+#grad7{
+    background-image: radial-gradient(circle,hsl(0deg,100%,50%),hsl(120deg,100%,50%),hsl(315,100%,50%),hsl(240,100%,50%),hsl(60deg,100%,50%));
+}
+#grad8{
+    background-image: radial-gradient(circle,hsla(240deg,100%,50%,1),hsla(245deg,100%,50%,0.9),hsla(250deg,100%,50%,0.8),hsla(255deg,100%,50%,0.7),hsla(260deg,100%,50%,0.6),hsla(265deg,100%,50%,0.5),#00f);
+}
+#grad9{
+    background-image: radial-gradient(circle,yellow,hotpink,skyblue,black);
+}
+#grad10{
+    background-image: radial-gradient(circle,rgb(0,150,0),rgb(230,0,0),rgb(255,255,0));
+}
+#grad11{
+    background-image: repeating-radial-gradient(circle,tan,red 10%,teal 20%);
+}
+#grad12{
+    background-image: repeating-radial-gradient(red,pink 10%,hotpink 15%);
+}
+#grad13{
+    background-image: repeating-radial-gradient(circle,rgb(255,255,255),rgb(153,153,153) 10%,rgb(0,0,0) 20%);
+}
+#grad14{
+    background-image: repeating-radial-gradient(hsl(120deg,100%,50%),hsl(60deg,100%,50%) 10%,hsl(315deg,100%,50%) 20%);
+}
+#grad15{
+    background-image: repeating-radial-gradient(#0000ff,#ee83ee 10%,#ff0000 20%);
+}
+#grad16{
+    background-image: repeating-radial-gradient(red,orange 2%,yellow 2%,green 2%,blue 5%);
+}
+#grad17{
+    background-image: repeating-radial-gradient(black,blue 10%,skyblue 20%);
+}
+#grad18{
+    background-image: repeating-radial-gradient(white,yellow 10%,orange 15%,hotpink 20%,red 25% );
+}
+#grad19{
+    background-image: repeating-radial-gradient(orange,white 10%,green 20%);
+}
+#grad20{
+    background-image: repeating-radial-gradient(circle,hsl(315deg,100%,50%),hsl(315deg,50%,50%) 10%,white 10%,hsl(315deg,0%,50%) 20%);
+}
